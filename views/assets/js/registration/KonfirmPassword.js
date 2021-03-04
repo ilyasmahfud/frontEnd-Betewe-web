@@ -15,11 +15,7 @@
 $('#txtPassword').on('keyup', function() {
     let password = $("#txtPassword").val();
     let confirmPassword = $("#txtConfirmPassword").val();
-    if (confirmPassword == ''){
-        $("#verPass").html("* kata sandi kosong");
-        $("#verPass").css("color","red")
-    }
-    else if (password != confirmPassword) {
+    if (password != confirmPassword) {
         $("#verPass").html("* kata sandi tidak sama");
         $("#verPass").css("color","red")
     }
