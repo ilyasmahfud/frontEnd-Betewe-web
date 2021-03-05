@@ -58,7 +58,7 @@
                         <!-- input password -->
                         <span class="input-group-text" id="basic-addons1" style="background-color: transparent; border-right: transparent; border-radius: 15px 0px 0px 15px;"><i id="gembok" class="fa fa-lock"></i></span>
                         <input class="form-control" type="password" placeholder="Kata Sandi" name="" id="txtPassword" onkeyup='check();' style="border-left:transparent; border-right: transparent;" onkeyup="checkA();">
-                        <span class="input-group-text" id="basic-addons1" style="background-color: transparent; border-left: transparent; border-radius: 0px 15px 15px 0px;"><i id="toggle_pwd1" class="fa fa-fw fa-eye field_icon"></i></span>
+                        <span class="input-group-text" id="basic-addons1" style="background-color: transparent; border-left: transparent; border-radius: 0px 15px 15px 0px;"><i id="toggle_pwd1" class="fa fa-fw fa-eye-slash field_icon"></i></span>
                         <!-- script melihat password -->
                         <script src="assets/js/registration/eyesRegistration.js"></script>
                     </div>
@@ -71,7 +71,7 @@
                         <!-- input konfirmasi password -->
                         <span class="input-group-text" id="basic-addons1" style="background-color: transparent; border-right: transparent; border-radius: 15px 0px 0px 15px;"><i id="gembok" class="fa fa-lock"></i></span>
                         <input class="form-control" type="password" placeholder="Konfirmasi Kata Sandi" name="" id="txtConfirmPassword" onkeyup='check();' style="border-left:transparent; border-right: transparent;" onkeyup="check();">
-                        <span class="input-group-text" id="basic-addons1" style="background-color: transparent; border-left: transparent; border-radius: 0px 15px 15px 0px;"><i id="toggle_pwd2" class="fa fa-fw fa-eye field_icon"></i></span>
+                        <span class="input-group-text" id="basic-addons1" style="background-color: transparent; border-left: transparent; border-radius: 0px 15px 15px 0px;"><i id="toggle_pwd2" class="fa fa-fw fa-eye-slash field_icon"></i></span>
                         <!-- script melihat password -->
                         <script src="assets/js/registration/eyesRegistration-2.js"></script>
                     </div>
@@ -79,16 +79,13 @@
                     <p id="verPass">|</p>
                     
 
-                    <!-- script alert -->
+                    <!-- script alert and button disable/enable-->
                     <script src="assets/js/registration/cekUsername.js"></script>
-                    <script src="assets/js/registration/cekEmail.js"></script>
-                    <script src="assets/js/registration/cekPassword.js"></script>
-                    <script src="assets/js/registration/KonfirmPassword.js"></script>
-
+    
 
                     <!-- TOMBOL MASYOK -->
                     <div class="d-grid gap-2 col-12 mx-block">
-                        <button class="btn btn-secondary" type="submit" id="btnSubmited" value="Submit form">Daftar</button>
+                        <button class="btn btn-secondary" type="submit" id="btnSubmited" value="Submit form" disabled>Daftar</button>
                     </div>  
 
                     </form>
