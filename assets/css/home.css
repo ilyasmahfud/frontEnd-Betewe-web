@@ -1,0 +1,338 @@
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* .banner{
+    background-color: white;
+} */
+
+
+
+
+
+/* testimoni */
+
+
+
+.contain-judul-testimoni {
+    background-color: #E5E5E5;
+
+}
+
+.hover-judul-testimoni:hover {
+    border-bottom: thick solid  #84ACF8;
+    
+}
+
+
+
+.judul-testimoni {
+    height: 52px;
+    width: 580px;
+    left: 430px;
+    top: 2500px;
+    margin: auto;
+    margin-bottom: 120px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    color:#1A1A1A;
+
+}
+
+
+.slider-area {
+    background: #9ABAF7;
+    color: black;
+    height: 392px;
+    left: 0px;
+    top: 2624px;
+    border-radius: 0px;
+    align-content: center;
+}
+
+.img-area {
+    object-position: center;
+    height: 108px;
+    width: 108px;
+    border-radius: 0px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel-caption {
+    position: static;
+    color: black;
+
+}
+
+.carousel-caption h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    height: 32px;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel-caption h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 32px;
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.carousel-caption .p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    height: 48px;
+    width: 864px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/* .carousel-indicators{
+
+} */
+
+
+
+/* know more */
+
+.know-more {
+    background-color: #E5E5E5;
+}
+
+.know-more .text-1 {
+    margin: auto;
+    height: 92px;
+    width: 635px;
+    left: 401px;
+    top: 3140px;
+    
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 75px;
+   
+}
+
+.know-more .text-2 {
+    height: 96px;
+    width: 540px;
+    left: 165px;
+    top: 3313px;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: black;
+
+}
+
+
+.know-more .text-3{
+
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    text-align: left;
+}
+
+.btn-know-more{
+    color: #2C448C;
+    height: 50px;
+    width: 186px;
+    border: 1px solid #2C448C;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 44px;
+    margin-bottom: 72px;  
+    cursor: pointer;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+
+
+}
+
+
+.btn-know-more:hover {
+
+    color: white;
+    background-color: #2C448C;
+    border: 1px solid white;
+}
+
+
+
+/* add email */
+
+.add-email {
+    background-color: #E5E5E5;
+    padding-top: 104px;
+    padding-bottom: 146px;
+
+}
+
+.img-email {
+
+    height: 358px;
+    width: 410px;
+    position: absolute;
+    background-color: #E5E5E5;
+    
+}
+
+
+
+.text-add-email {
+
+    height: 138px;
+    width: 620px;
+    left: 654px;
+    top: 3740px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: 0.005em;
+    text-align: left;
+
+}
+
+
+.form-add-email {
+
+    height: 55px;
+    width: 540px;
+    left: 0px;
+    top: 0px;
+    border-radius: 15px;
+    border-style: solid;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    text-align: left;
+    margin-top: 28px;
+    margin-bottom: 28px;
+
+}
+
+::placeholder {
+    margin-left: 32,53px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+}
+
+.btn-add-email {
+    background-color:#2C448C ;
+    color: white;
+    height: 50px;
+    width: 217px;
+    border-radius: 15px;
+    margin-bottom: 163px;
+    cursor: pointer;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.btn-add-email:hover {
+    background-color: white;
+    color:#2C448C ;
+}
+
+
+
+
+/* footer */
+.container-footer {
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+    /* height: 80px; */
+    background-color: #2C448C;
+    backdrop-filter: blur(4px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin-top: 163px; */
+}
+
+.text-footer-1{
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+.text-footer-2{
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    margin-bottom: 14px;
+}
