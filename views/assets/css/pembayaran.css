@@ -65,6 +65,7 @@ p {
     /* text-align: left; */
     color: rgba(26, 26, 26, 1);
     line-height: 32px;
+    margin-bottom: 0px;
 }
 
 ol {
@@ -104,6 +105,8 @@ h3 {
 
 .container,
 .col-6,
+.col-8,
+.col-4,
 .col-xl-6 {
     background-color: transparent;
     padding: 7px;
@@ -117,6 +120,9 @@ h3 {
 }
 
 #detailPembayaran {
+    margin-left: 30px;
+    height: 354px;
+    width: 475px;
     padding: 50px;
     border-radius: 10px;
     background-color: #ffffff;
