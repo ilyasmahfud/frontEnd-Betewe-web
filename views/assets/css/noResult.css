@@ -1,3 +1,7 @@
+body {
+    background-color: transparent;
+}
+
 img {
     border-radius: 100%;
 }
@@ -14,5 +18,5 @@ h3 {
 }
 
 #content {
-    margin: 180px 480px 400px 480px;
+    margin: 180px 444px 317px 444px;
 }
