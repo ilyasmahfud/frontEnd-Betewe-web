@@ -1,0 +1,75 @@
+
+.body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+
+.kutipan, .tentang-betewe, .pemrakarsa-betewe {
+    background-color: #E5E5E5;
+}
+
+
+
+
+/* Banner About Us */
+
+
+
+.kutipan-teks-1 {
+
+}
+
+
+.kutipan-teks-2 {
+
+}
+
+
+
+
+
+/* Deskripsi Program */
+
+
+
+.teks-judul-tentang {
+    height: 44px;
+    width: 708px;
+    margin: auto;
+
+    color: black;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+}
+
+
+.text-content-tentang {
+
+    height: 200px;
+    width: 826px;
+    margin: auto;
+    color: black;
+
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 0.005em;
+    text-align: center;
+
+
+}
+
+
+/* Profil Anggota Kelompok */
+
+
+
+
+
