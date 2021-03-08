@@ -1,0 +1,121 @@
+/* @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css") */
+
+body{
+    background-color:  #FFFFFF;
+    ;
+  }
+
+.navbar-beranda{
+    background-color: #F2F2F2;
+}
+
+#myNavbar {
+  padding-left: 572.5px;
+}
+
+.btn-search {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    height: 36px;
+    width: 36px;
+    background: #84ACF8;
+    border-radius: 40px;
+    border: none;
+}
+
+.fa-search{
+    background-color: transparent;
+    color: #2C448C;
+  }
+  
+  .search {
+    position: relative;
+}
+
+.form-control{
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+}
+
+.search input {
+    height: 60px;
+    width: 340px;
+    text-indent: 5px;
+    border-radius: 15px;
+    border: none;
+}
+
+.circle-button [class*="fa fa-"] {
+    
+    background-color: #333;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 38px;
+	height: 38px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.panel-heading {
+  padding: 0;
+	border:0;
+}
+
+.panel-title{
+  padding-top: 20px;
+}
+.panel-title>a, .panel-title>a:active{
+	display:block;
+  color:#555;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+	text-decoration:none;
+}
+.panel-heading  a:before {
+   font-family: "Font Awesome 5 Free";
+   font-size: 20px;
+   content: "\f078";
+   float: right;
+   transition: all 0.5s;
+}
+.panel-heading.active a:before {
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	transform: rotate(180deg);
+} 
+
+.isi{
+  padding-top: 20px;
+}
+
+.btn-tampilan{
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid #2C448C;
+  font-family: "Roboto", sans-serif;
+  color: #2C448C;
+  margin-top:10px;
+  min-width:50px!important;
+  max-width:99.99%!important;
+  font-size: 14px;
+  height: 39px;
+}
