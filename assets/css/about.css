@@ -1,27 +1,65 @@
 
 .body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    
+    background-color: #f2f2f2;
 }
 
-
-.kutipan, .tentang-betewe, .pemrakarsa-betewe {
-    background-color: #E5E5E5;
-}
 
 
 
 
 /* Banner About Us */
 
+.kutipan {
+    background: url(../image/register.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 15% 95%;;;
+    background-attachment: fixed;
+    
+}
 
+.container #transparan {
+
+    
+}
 
 .kutipan-teks-1 {
+
+    height: 100px;
+    width: 975px;
+    margin: auto;
+    margin-top: 120px;
+    margin-bottom: 60px;
+    padding-top: 250px;
+
+    color: black;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
 
 }
 
 
 .kutipan-teks-2 {
+
+    height: 40px;
+    width: auto;
+    margin: auto;
+    margin-top: 200px;
+
+    padding-bottom: 250px;
+
+    color: black;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
 
 }
 
@@ -31,12 +69,20 @@
 
 /* Deskripsi Program */
 
-
+.borderline-judul {
+    
+    border-bottom: 4px solid #84ACF8;
+    margin: auto;
+    margin-top: 8px;
+    width: 192px;
+}
 
 .teks-judul-tentang {
     height: 44px;
     width: 708px;
     margin: auto;
+    margin-top: 128px;
+    margin-bottom: 60px;
 
     color: black;
     font-family: Roboto;
@@ -53,6 +99,7 @@
     height: 200px;
     width: 826px;
     margin: auto;
+    margin-bottom: 64px;
     color: black;
 
     font-family: Roboto;
@@ -70,6 +117,108 @@
 /* Profil Anggota Kelompok */
 
 
+.teks-judul-profil {
+
+    margin-top: 64px;
+    margin: auto;
+    margin-bottom: 52px;
+    height: 44px;
+    width: 708px;
+
+    color: black;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: center;
+}
 
 
+.slider-area-profil {
+
+    color: black;
+    height: 392px;
+    left: 0px;
+    top: 2624px;
+    border-radius: 0px;
+    align-content: center;
+    margin-top: 40px;
+}
+
+.img-area-foto {
+    object-position: center;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 48px;
+    margin-bottom: 24px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.carousel-caption {
+    position: static;
+    color: black;
+
+}
+
+.carousel-caption h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    height: 32px;
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+
+}
+
+.carousel-caption h4 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    height: 32px;
+    width: 264px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+
+}
+
+
+/* tombol sccroll-up */
+
+.backToTop{
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    right: 50px;
+    font-size: 3em;
+    z-index: 9999;
+    height: 56px;
+    width: 56px;
+    text-align: center;
+    border-radius: 28px;
+    border: 1px solid #2C448C;
+  }
+  .backToTop i{
+    position: absolute;
+    bottom: 15px;
+    left: 17px;
+    font-size: 30px;
+    color: #2C448C;
+  }
+  .backToTop i:hover{
+    color: #aaa;
+  }
 
