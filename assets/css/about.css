@@ -11,25 +11,21 @@
 /* Banner About Us */
 
 .kutipan {
-    background: url(../image/register.svg);
+    background: url(../image/dWYU3i-mqEo.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 15% 95%;;;
+    background-position: 15%;
     background-attachment: fixed;
     
 }
 
-.container #transparan {
-
-    
-}
 
 .kutipan-teks-1 {
 
     height: 100px;
     width: 975px;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 50px;
     margin-bottom: 60px;
     padding-top: 250px;
 
@@ -119,7 +115,7 @@
 
 .teks-judul-profil {
 
-    margin-top: 64px;
+    margin-top: 128px;
     margin: auto;
     margin-bottom: 52px;
     height: 44px;
@@ -143,7 +139,7 @@
     top: 2624px;
     border-radius: 0px;
     align-content: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .img-area-foto {
