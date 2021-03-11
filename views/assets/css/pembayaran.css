@@ -1,11 +1,12 @@
-* {
+*,
+body {
     margin: 0;
     background-color: #e5e5e5;
     font-family: Roboto;
 }
 
 #content {
-    margin: 86px 165px 208px 165px;
+    margin: 86px 165px 70px 165px;
 }
 
 #logoBetewe {
@@ -41,7 +42,7 @@ h5 {
     margin: 0px;
 }
 
-h6 {
+#penagihan {
     background-color: transparent;
     font-family: Roboto;
     font-size: 18px;
@@ -126,4 +127,20 @@ h3 {
     padding: 50px;
     border-radius: 10px;
     background-color: #ffffff;
+}
+
+/* footer */
+.container-footer {
+    font-family: 'Roboto';
+    color: white;
+    text-align: center;
+    /* height: 80px; */
+    background-color: #2C448C;
+    backdrop-filter: blur(4px);
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+h6 {
+    background-color: transparent;
 }
