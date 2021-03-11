@@ -1,0 +1,53 @@
+* {
+    background-color: whitesmoke;
+}
+
+b {
+    background-color: transparent;
+}
+
+p {
+    font-size: 12px;
+    background-color: transparent;
+}
+
+
+.col-xl-4 {
+    margin: 0px;
+}
+
+
+#kontenKotak {
+    align-content: center;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 10px 25px 10px 25px;
+    padding-top: 60px;
+    padding-left: 68;
+    padding-right: 68;
+
+}
+
+#tombolLangganan {
+    background-color: #84acf8;
+    text-align: center;
+    margin: 46px 0px 22px 0px;
+    border-radius: 15px;
+    box-shadow: none;
+    border-radius: nullpx;
+    height: 50px;
+    width: 186px;
+    left: 0px;
+    top: 0px;
+    border-radius: 15px;
+    box-shadow: none;
+    color: white;
+}
+
+
+#tombolLangganan:hover {
+    background-color: #2c44bc;
+}
