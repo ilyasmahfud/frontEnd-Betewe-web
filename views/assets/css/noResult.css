@@ -1,0 +1,22 @@
+body {
+    background-color: transparent;
+}
+
+img {
+    border-radius: 100%;
+}
+
+h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.005em;
+    text-align: center;
+    margin-top: 32px;
+}
+
+#content {
+    margin: 180px 444px 317px 444px;
+}
