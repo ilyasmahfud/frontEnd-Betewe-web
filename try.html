@@ -1,0 +1,98 @@
+<body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <nav id="nav" class="navigation">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="">About</a>
+          <ul>
+            <li><input>Page 1</input></li>
+            <li><a href="">Page 2</a></li>
+            <li><a href="">Page 3</a></li>
+          </ul>
+        </li>
+        <li><a href="">Products</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="">Contact</a>
+          <ul>
+            <li><a href="">Page 1</a></li>
+            <li><a href="">Page 2</a></li>
+            <li><a href="">Page 3</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <style>
+        body {
+        background: #2a333b;
+        font-family: 'Quicksand', sans-serif;
+        }
+        #nav {
+            width: 643px;
+            margin: auto;
+            height: 40px;
+            background: #006266;
+            margin-top: 2.5em;
+        }
+        #nav ul li {
+            display: inline-block;
+            padding: 0px 10px;
+            width: 105px;
+            font-size: 1.15em;
+            text-align: center;
+            line-height: 40px;
+        }
+
+        #nav ul li ul {
+            display: none;
+            position: absolute;
+            background: #fff;
+            margin: 1px 0 0 -9px;
+            padding: 5px 0px;
+        }
+        #nav ul li ul:before {
+            content: "";
+            position: absolute;
+            top: -8px;
+            left: 5%;
+            width: 0px;
+            height: 0px;
+            border-style: solid;
+            border-width: 0 5px 8px 5px;
+            border-color: transparent transparent #ffffff transparent;
+        }
+        #nav ul li ul li {
+            display: block;
+        }
+        #nav ul li ul li a {
+            font-weight: normal;
+            font-size: .65em;
+            color: #5f7385;
+            padding: 0px;
+            display: block;
+        }
+        #nav ul li ul li a:hover {
+            border-top: none;
+            color: white;
+            background: rgb(0, 98, 102, 0.6);
+        }
+        #nav ul li ul li a:active {
+            position: relative;
+            top: 1px;
+        }
+        #nav ul li a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: none;
+            padding-top: 9px;
+        }
+    </style>
+
+    <script>
+    $(document).ready(function() {
+        $("#nav li").hover(function() { 
+            $(this).find("ul").slideToggle("fast"); 
+         });
+    });
+    </script>
+</body>

@@ -43,9 +43,15 @@ h5 {
 
 }
 
-/* #formPertanyaan {
-    padding-right: 50px;
-} */
+#prodi {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.005em;
+    color: #84ACF8;
+}
 
 #pertanyaan {
     width: 100%;
@@ -72,6 +78,23 @@ h5 {
     /* color/text 1 */
 
     color: #1A1A1A;
+}
+
+#alert {
+    /* font/text 4 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+
+    letter-spacing: 0.005em;
+
+    /* color/other/red */
+
+    color: #C90000;
 }
 
 .mr-3 {
@@ -127,6 +150,18 @@ label {
     display: none;
 }
 
+#descKategori {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    color: #BCBCBC;
+}
+
 #fakultas,
 #programStudi,
 #matkul {
@@ -153,6 +188,10 @@ input[type="text"] {
 
     background-color: red;
 
+}
+
+#kategori {
+    margin-top: 20px;
 }
 
 #btnSubmited {

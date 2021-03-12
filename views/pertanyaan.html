@@ -21,7 +21,7 @@
                             <img src="assets/images/foto_profil.svg">
                         </div>
 
-                        <div class="col-11">
+                        <div class="col-10">
                             <form action="/api/addQuestion" method="POST" style="padding-top: 20px;" class="regis">
                                 <!-- USERNAME -->
                                 <h5 class="mt-0">Nama <span id="jenis">Pertanyaan</span></h5>
@@ -30,6 +30,9 @@
                                 <!-- input pertanyaan -->
                                 <div>
                                     <input type="text" name="" id="pertanyaan" placeholder="Pertanyaan">
+                                </div>
+                                <div id="alert">
+                                    <p>* wajib</p>
                                 </div>
             
                                 <!-- Deskripsi Pertanyaan -->
@@ -41,20 +44,23 @@
                                         <input type="file" multiple accept="image/*" name="files[]" id="file" >
                                     </div>
                                     <div>
-                                        <textarea name="" cols="30" rows="10" placeholder="Tambahkan deskripsi, foto, atau video jika diperlukan"></textarea>
+                                        <textarea id="deskripsiPertanyaan" cols="30" rows="10" placeholder="Tambahkan deskripsi, foto, atau video jika diperlukan"></textarea>
                                     </div>
+                                </div>
+                                <div id="alert">
+                                    <p>* wajib</p>
                                 </div>
                                 
                                 <!-- Hastag -->
-                                <div id="hastag">
-                                    <h5>Hastag <span style="color: red;">*</span></h5>
-                                    <p id="descHastag">
-                                        Tambahkan hastag sesuai dengan kategori forummu, agar pengguna lain dapat melihat dan ikut berkontribusi dalam mencari solusi untukmu.
+                                <div id="kategori">
+                                    <h5>Kategori</h5>
+                                    <p id="descKategori">
+                                        Tambahkan kategori yang sesuai dengan pembahasan forummu, agar pengguna lain dapat melihat dan ikut berkontribusi dalam mencari solusi untukmu.
                                     </p>
                                     <div class="container">
                                         <div class="row">
                                             <div class="col-sm-4">
-                                                <input id="fakultas" placeholder="Fakultas">
+                                                <input id="fakultas" placeholder="Kategori">
                                             </div>
                                             <div class="col-sm-4">
                                                 <input id="programStudi" placeholder="Program Studi">
@@ -63,6 +69,9 @@
                                                 <input id="matkul" placeholder="Mata Kuliah">
                                             </div>
                                         </div>
+                                    </div>
+                                    <div id="alert" style="margin-top: 10px;">
+                                        <p>* wajib</p>
                                     </div>
                                 </div>
             
@@ -79,7 +88,7 @@
                 </div>
     
                 <!-- Space untuk tombol kirim -->
-                <div class="col-xl-1">
+                <div class="col-xl-2">
                 </div>
             </div>
         </div>
