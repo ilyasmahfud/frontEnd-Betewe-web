@@ -1,0 +1,136 @@
+* {
+    background-color: #ffffff;
+}
+
+#contentUtama {
+    margin: 20px 165px 245px 165px;
+}
+
+img {
+    border-radius: 100%;
+}
+
+#profilUser {
+    padding: 20px 20px 40px 20px;
+}
+
+#fotoUser {
+    display: block;
+    margin: 20px auto 20px auto;
+}
+
+#userName,
+#prodi,
+#info {
+    padding: 0px 30px 0px 30px;
+    text-align: center;
+}
+
+#userName {
+    /* font/heading 2 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    /* color/primary 1 */
+
+    color: #2C448C;
+
+    /* Inside Auto Layout */
+
+}
+
+#prodi {
+    /* font/text 3 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* color/primary 2 */
+
+    color: #84ACF8;
+
+    padding-bottom: 20px;
+}
+
+#detailPengguna {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    text-align: left;
+}
+
+h6 {
+    /* font/text 3 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    /* color/other/disable */
+
+    color: #BCBCBC;
+}
+
+#detail {
+    /* font/text 3 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    text-align: right;
+    letter-spacing: 0.005em;
+
+    /* color/text 1 */
+
+    color: #1A1A1A;
+}
+
+#berlangganan {
+    height: 40px;
+    width: 135px;
+    border-radius: 15px;
+    background: #2C448C;
+
+    /* font/heading 3 */
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    /* or 171% */
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    /* color/text 2 */
+
+    color: #FBFBFB;
+
+    display: block;
+    margin: 40px auto 20px auto;
+}
