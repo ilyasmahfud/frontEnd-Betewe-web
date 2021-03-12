@@ -6,7 +6,16 @@
 
 /* KOLOM SETTING PROFILE CONTROLLER */
 
+.border-pemisah {
 
+    width: 246px;
+    height: 0px;
+    left: 10px;
+    top: 45px;
+
+/* color/text 1 */
+border: 0.5px solid #1A1A1A;
+}
 
 
 
@@ -18,7 +27,41 @@
 
 }
 
+.p {
+    width: 415px;
+    height: 88px;
+    top: 50px;
+    
+    /* font/text 4 */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 22px;
+    
+    letter-spacing: 0.005em;
+    
+    /* color/other/disable */
+    color: #BCBCBC;
+    
+}
 
+
+#ket-bio.col,
+#ket-privacy.col {
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.005em;
+    text-align: right;
+
+    color: #1A1A1A;
+
+
+}
 
 
 .input {
