@@ -9,6 +9,8 @@
       <!-- Font Awesome-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/js/all.min.js"></script>
+
       <!-- Font -->
       <link rel="preconnect" href="https://fonts.gstatic.com">
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
@@ -23,18 +25,31 @@
          <nav class="navbar navbar-expand-lg navbar-beranda">
             <div class="container">
                <a class="navbar-brand" href="#">
-               <img src="../assets/image/banner/logo.svg" alt="" width="140" >
+               <img src="../assets/images/banner/logo.svg" alt="" width="140" >
                </a>
                <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
-                  <ul class="navbar-nav ml-auto flex-nowrap">
+                  <ul class="navbar-nav navbar-right ml-auto flex-nowrap">
                      <li class="nav-item">
                         <div class="search"> <input type="text" class="form-control" placeholder="Cari"> <button class="btn-search "><i class="fa fa-search"></i></button> </div>
                      </li>
                      <li class="nav-item">
-                        <div class="circle-button"><i class="fa fa-search"></i></div>
+                        <div class="circle-button"><i class="far fa-bell"></i></div>
                      </li>
                      <li class="nav-item">
-                        <img class="img-circle" src="http://pre14.deviantart.net/1846/th/pre/f/2012/322/c/0/face_illusion_by_west_ninja-d5lc6w2.jpg" alt="" />
+                               <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                 <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" class="img-circle">
+                               </a>
+                               <div class="dropdown-menu" >
+                                  <div class="profile-wrap">
+                                 <a class="dropdown-pict" id="coba" href="#">  <img src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/fox.jpg" class="img-circle-big"> </a>
+                                  <div class="setting-title">Nama <br> asasass </div>  
+                                 </div>
+                                 <div class="menu-profile">
+                                 <a class="dropdown-item" href="#"> View Info Profile</a>
+                                 <a class="dropdown-item" href="#">Berlangganan</a>
+                                 <a class="dropdown-item" href="#">Logout</a>
+                                 </div>
+                               </div>
                      </li>
                   </ul>
                </div>
@@ -44,9 +59,12 @@
       <section class= "isi">
          <div class="container">
             <div class="row">
-               <div class="col-sm-2 col-lg-3">
-                  <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                     <div class="panel panel-default">
+               <div class="col-sm-12 col-lg-3">
+                  <div class="panel panel-default">
+                     <div class="poin-text">
+                        Poin yang terkumpul : &emsp; &emsp; &emsp; &emsp; &emsp;  65
+                     </div>
+                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                         <div class="panel-heading" role="tab" id="headingOne">
                            <h4 class="panel-title">
                               <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -56,18 +74,51 @@
                         </div>
                         <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                            <div class="panel-body">
-                              Tampilkan berdasarkan <br>
-                              <button class="btn btn-tampilan type="submit">All</button>
+                              <h6>Tampilkan berdasarkan : </h6>
+                              <button class="btn btn-tampilan" type="submit">All</button>
                               <button class="btn btn-tampilan" type="submit">Pertanyaan Belum Terjawab</button>
                               <button class="btn btn-tampilan" type="submit">Pertanyaan Sudah Terjawab</button>
                               <button class="btn btn-tampilan" type="submit">Forum Diskusi</button> <br>
-                              Program Studi<br>
-                              <div class="search"> <input type="text" class="form-control" placeholder="Cari"> <button class="btn-search "></button> </div>
-                              Mata Kuliah
+                              <h6>Program Studi</h6>
+                              <!-- <input type="text" id="search-programstudi" autocomplete="off" placeholder="Cari" />
+                              <ul class="output" style="display:none;">
+                              </ul> -->
+                              <div class="program-dropdown">
+                                 <select class="wrapper" name="hobi" class="form-control" onfocus='this.size=5;' onblur='this.size=1;' onchange='this.size=10; this.blur();'>
+                                     <option value="" selected>--Pilih matkul--</option>
+                                     <option value="1">Matematika</option>
+                                     <option value="2">Fisika</option>
+                                     <option value="3">Ekonomi</option>
+                                     <option value="4">Desain</option>
+                                     <option value="5">Kripto</option>
+                                 </select>
+                             </div>
+                              <!-- <div class="program-dropdown">
+                                 <button class="btn-dropProgram" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Cari ...
+                                 </button>
+                                 <div class="dropdown-menu" id="menu-program" aria-labelledby="dropdownMenuButton">
+                                   <a class="dropdown-item" href="#">Action</a>
+                                   <a class="dropdown-item" href="#">Another action</a>
+                                   <a class="dropdown-item" href="#">Something else here</a>
+                                 </div>
+                               </div> -->
+                              <h6>Mata Kuliah</h6>
+                              <!-- <div class="matkul-dropdown">
+                                 <button class="btn-dropMatkul" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                   Cari ...
+                                 </button>
+                                 <div class="dropdown-menu" id="menu-matkul" aria-labelledby="dropdownMenuButton">
+                                   <a class="dropdown-item" href="#">Actions</a>
+                                   <a class="dropdown-item" href="#">Another actiosn</a>
+                                   <a class="dropdown-item" href="#">Something else heres</a>
+                                 </div>
+                               </div> -->
+                              
                            </div>
                         </div>
                      </div>
-                     <div class="panel panel-default">
+                  
                         <div class="panel-heading" role="tab" id="headingTwo">
                            <h4 class="panel-title">
                               <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
@@ -77,11 +128,148 @@
                         </div>
                         <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                            <div class="panel-body">
-                              section2
+                              <h6>section2</h6>
+                              <h6>section2</h6>
+                              <h6>section2</h6>
+                           </div>
+                     </div>
+                  </div>
+               </div>
+
+               <div class="col-sm-10 col-lg-7">
+                  <div class="isi-beranda">
+                        <div class="row">
+                           <div class="col-sm-4 col-lg-1">
+                              <img class="img-beranda" src="http://pre14.deviantart.net/1846/th/pre/f/2012/322/c/0/face_illusion_by_west_ninja-d5lc6w2.jpg" alt="" />
+                           </div>
+                           <div class="col-sm-8 col-lg-10">
+                              <div class="dropdown">
+                                 <button onclick="myFunction()" class="dropbtn"><span class="fas fa-ellipsis-h"></span></button>
+                                 <div id="myDropdown" class="dropdown-content">
+                                    <a href="#"><i class="far fa-share-square" ></i> Bagikan</a>
+                                    <a href="#"><i class="far fa-save"></i> Simpan</a>
+                                    <a href="#"><i class="far fa-bell"></i> Beritahu Perubahan</a>
+                                    <a href="#"><i class="far fa-frown"></i> Tidak tertarik</a>
+                                    <a href="#"><i class="far fa-flag"></i> Laporkan</a>
+                                 </div>
+                                 </div>
+                              <div class=profile-bar>
+                                    <div class="profile-nama"> Namaaaaaaaaaaaa </div>
+                                    <button class="profile-jenis">Forum</button>
+                                    <div class="profile-jurusan"> S1 Teknik Arsitektur</div>
+                              </div>
+                           </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-sm-4 col-lg-1">
+                           <div class ="vote">
+                              <div class="like">
+                                 <i class="fas fa-caret-up fa-3x like" aria-hidden="true"></i>
+                              </div>
+                              <div class="count-vote">
+                                 x
+                              </div>
+                              <div class="dislike">
+                                 <i class="fas fa-caret-down fa-3x like" aria-hidden="true"></i>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="col-sm-8 col-lg-10">
+                           <div class="konten">
+                              Jika Tembok Besar Tiongkok dibuat pada zaman sekarang dengan kualitas yang baik, berapa biaya yang dibutuhkan untuk menyelesaikan proyek tersebut?
+                           </div>
+                           <div class="preview-isi">
+                              Ada satu sumber data dari brosur wisata Tembok Besar Tiongkok yang menyebutkan bahwa biaya pembangunan Tembok Besar atas dasar biaya saat ini yaitu sebesar $ 95 milyar ...
+                           </div>
+                           <ul class="tag-kategori">
+                                 <li class="kategori"> Sejarahssss </li>
+                                 <li class="kategori"> Teknik </li>
+                           </ul>
+                           <button class="btn-answer">
+                              Jawab
+                           </button>
+                           <div class="konten-time">
+                              2 menit yang lalu
+                           </div>
+                        </div>
+                     </div>   
+                  </div>
+
+                  <div class="isi-beranda">
+                     <div class="row">
+                        <div class="col-sm-4 col-lg-1">
+                           <img class="img-beranda" src="http://pre14.deviantart.net/1846/th/pre/f/2012/322/c/0/face_illusion_by_west_ninja-d5lc6w2.jpg" alt="" />
+                        </div>
+                        <div class="col-sm-8 col-lg-10">
+                           <div class="dropdown">
+                              <button onclick="myFunction()" class="dropbtn"><span class="fas fa-ellipsis-h"></span></button>
+                              <div id="myDropdown" class="dropdown-content">
+                                 <a href="#"><i class="far fa-share-square" ></i> Bagikan</a>
+                                 <a href="#"><i class="far fa-save"></i> Simpan</a>
+                                 <a href="#"><i class="far fa-bell"></i> Beritahu Perubahan</a>
+                                 <a href="#"><i class="far fa-frown"></i> Tidak tertarik</a>
+                                 <a href="#"><i class="far fa-flag"></i> Laporkan</a>
+                              </div>
+                              </div>
+                           <div class=profile-bar>
+                                 <div class="profile-nama"> Namaaaaaaaaaaaa </div>
+                                 <button class="profile-jenis">Forum</button>
+                                 <div class="profile-jurusan"> S1 Teknik Arsitektur</div>
+                           </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-sm-4 col-lg-1">
+                        <div class ="vote">
+                           <div class="like">
+                              <i class="fas fa-caret-up fa-3x like" aria-hidden="true"></i>
+                           </div>
+                           <div class="count-vote">
+                              x
+                           </div>
+                           <div class="dislike">
+                              <i class="fas fa-caret-down fa-3x like" aria-hidden="true"></i>
                            </div>
                         </div>
                      </div>
-                  </div>
+                     <div class="col-sm-8 col-lg-10">
+                        <div class="konten">
+                           Jika Tembok Besar Tiongkok dibuat pada zaman sekarang dengan kualitas yang baik, berapa biaya yang dibutuhkan untuk menyelesaikan proyek tersebut?
+                        </div>
+                        <div class="preview-isi">
+                           Ada satu sumber data dari brosur wisata Tembok Besar Tiongkok yang menyebutkan bahwa biaya pembangunan Tembok Besar atas dasar biaya saat ini yaitu sebesar $ 95 milyar ...
+                        </div>
+                        <ul class="tag-kategori">
+                              <li class="kategori"> Sejarahssss </li>
+                              <li class="kategori"> Teknik </li>
+                        </ul>
+                         <!-- <button class="comments-box">
+                           <i class="far fa-comment-alt" data-fa-transform="flip-h"></i>
+                           1
+                        </button> -->
+
+                        <button class="btn-answer">
+                           Jawab
+                        </button>
+
+                        <div class="konten-time">
+                           2 menit yang lalu
+                        </div>
+                     </div>
+                  </div>   
+               </div>
+               </div>
+
+               
+               <div class="col-sm-2 col-lg-2">
+                  <a href="#popup1" class="btn btn-add">Tambah</a>
+                     <div id="popup1" class="popup">
+                     <img class="img-question" src="../assets/images/question.svg" alt="" />
+                     <div class="popup-judul">Apa yang ingin kamu Tambahkan? </div>
+                     <a class="popup-pilihan" href="#">Forum</a>
+                     <a class="popup-pilihan" href="#">Pertanyaan</a>
+                     </div>
+                  <a href="#" class="close-popup"></a>
                </div>
             </div>
          </div>
