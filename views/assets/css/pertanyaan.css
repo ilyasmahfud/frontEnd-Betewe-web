@@ -326,13 +326,12 @@ label {
 
     position: fixed;
     top: 100px;
-    right: 165px;
+    right: 225px;
     z-index: 11;
 
     height: 40px;
     width: 131px;
     background-color: #2C448C;
-    ;
     border-radius: 15px;
     /* font/heading 3 */
     font-family: Roboto;
