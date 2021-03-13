@@ -37,7 +37,6 @@ body{
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  margin-top: 10px;
 }
 
 .search input {
@@ -143,12 +142,12 @@ body{
     padding: 30px 165px 50px 165px;
 }
 
-/* img{
+.img-profile{
     height: 100px;
     width: 102px;
     border-radius: 100%;
     float: right;
-} */
+}
 
 .img-thumbnail {
     height: 100px;
@@ -334,7 +333,7 @@ button {
 
 #btnSimpan,#btn-simpan{
     position: fixed;
-    top: 50px;
+    top: 100px;
     right: 15%;
 }
 
