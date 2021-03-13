@@ -1,10 +1,10 @@
-/* body {
-    margin: 100px 165px 23px 165px;
-    font-family: Roboto;
-} */
+#content {
+    margin: 20px 165px 23px 165px;
+}
+
 /* navbar */
 
-.navbar-beranda{
+.navbar-beranda {
     background-color: #F2F2F2;
 }
 
@@ -27,20 +27,20 @@
     border: none;
 }
 
-.fa-search{
+.fa-search {
     background-color: transparent;
     color: #2C448C;
     margin-bottom: 100px;
-  }
-  
-  .search {
+}
+
+.search {
     position: relative;
 }
 
-.form-control{
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
+.form-control {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
 }
 
 .search input {
@@ -52,8 +52,8 @@
 }
 
 .circle-button [class*="fa fa-"] {
-    
-    background-color:transparent;
+
+    background-color: transparent;
     border-radius: 50%;
     color: #2C448C;
     display: inline-block;
@@ -68,27 +68,29 @@
 }
 
 .img-circle {
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
     margin-top: 5px;
 }
 
 .img-circle-big {
-	border-radius: 50%;
-	width: 57px;
-	height: 57px;
-    display: table-cell; 
-  vertical-align: top; 
-  margin-left: 10px;
-  margin-right: 5px;
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
-.profile-wrap{
-  display: table-row;
+.profile-wrap {
+    display: table-row;
 }
-.setting-title{
-  display: table-cell; vertical-align: top; 
+
+.setting-title {
+    display: table-cell;
+    vertical-align: top;
 }
 
 #formPertanyaan{
@@ -289,7 +291,7 @@ label {
 #btnSubmited {
 
     position: fixed;
-    top: 100px;
+    top: 120px;
     right: 200px;
     z-index: 11;
 
