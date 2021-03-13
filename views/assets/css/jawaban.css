@@ -27,10 +27,51 @@ textarea {
 }
 
 #referensi {
-    margin: 5px 17px 0px 16px;
+    margin: 20px 0px 20px 16px;
     padding-left: 20px;
-    padding-right: 20px;
     border-radius: 5px;
+    height: 38px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.referensi {
+    margin: 20px 0px 20px 16px;
+    padding-left: 20px;
+    border-radius: 15px;
+    height: 38px;
+    width: 610px;
+    border: 1px solid black;
+    border-right: transparent;
+}
+
+.Reply {
+    margin: 20px 0px 0px 16px;
+    padding-left: 20px;
+    border-radius: 15px;
+    height: 38px;
+    width: 610px;
+    border: 1px solid black;
+    border-right: transparent;
+}
+
+.input-group-text {
+    margin: 20px 0px 20px 0px;
+    height: 38px;
+    border: 1px solid black;
+    background-color: transparent;
+    border-left: transparent;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.iniReply {
+    margin: 20px 0px 0px 16px;
+    padding-left: 20px;
+    border-radius: 15px;
+    height: 38px;
+    width: 610px;
+    border: 1px solid black;
+    border-right: transparent;
 }
 
 input:focus,
@@ -146,13 +187,9 @@ h6 {
 
     color: #FBFBFB;
     float: right;
-    margin-top: 20px;
     margin-bottom: 50px;
 }
 
-#jawabPertanyaanIni {
-    display: none;
-}
 
 #jawaban {
     margin-left: 5px;
@@ -182,4 +219,18 @@ p {
     order: 1;
     flex-grow: 0;
     margin: 10px 0px;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+span {
+    margin: 5px;
+}
+
+#inputReply1,
+#inputReply2 {
+    display: none;
 }

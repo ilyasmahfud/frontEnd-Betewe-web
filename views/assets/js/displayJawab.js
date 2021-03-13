@@ -1,17 +1,34 @@
 
-$("#tombolJawab").click(function() {
+$("#Reply1").click(function() {
  
-   var lable = $("#tombolJawab").attr("value");
+   var lable = $("#Reply1").attr("value");
  
   //alert(lable);
 
    if(lable == "Show") {
-     $("#tombolJawab").attr("value", "Hide");
-     $("#jawabPertanyaanIni").show();
+     $("#Reply1").attr("value", "Hide");
+     $("#inputReply1").show();
    }
    else {
-     $("#tombolJawab").attr("value", "Show");
-     $("#jawabPertanyaanIni").hide();
+     $("#Reply1").attr("value", "Show");
+     $("#inputReply1").hide();
    }
-   
+ });
+
+
+ 
+$("#Reply2").click(function() {
+ 
+   var lable = $("#Reply2").attr("value");
+ 
+  //alert(lable);
+
+   if(lable == "Show") {
+     $("#Reply2").attr("value", "Hide");
+     $("#inputReply2").show();
+   }
+   else {
+     $("#Reply2").attr("value", "Show");
+     $("#inputReply2").hide();
+   }
  });

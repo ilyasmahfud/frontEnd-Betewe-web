@@ -3,7 +3,6 @@
 body {
   background-color: #FFFFFF;
   font-family: Roboto;
-  overflow-y: transparent;
 }
 
 a {
@@ -164,7 +163,7 @@ a {
 }
 
 .pertanyaan {
-  padding: 20px 316px 30px 316px;
+  margin: 20px 316px 30px 316px;
 }
 
 
