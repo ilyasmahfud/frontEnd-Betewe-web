@@ -13,8 +13,12 @@ a{
 }
 
 #myNavbar {
-  padding-left: 572.5px;
+  padding-left: 502.5px;
 }
+
+.navbar-brand{
+  margin-left: 80px;
+ }
 
 .btn-search {
     position: absolute;
@@ -145,8 +149,12 @@ margin-top: 10px;
 }
 
 #form-matkul , #form-program{
-  width:300px;
-  font-size: 14px
+  width:239px;
+  font-size: 14px;
+  border: 1.5px solid #2C448C;
+  box-sizing: border-box;
+  border-radius: 10px;
+  
 }
 
 .program-dropdown, .matkul-dropdown {
@@ -155,12 +163,14 @@ margin-top: 10px;
 
 .isi{
   padding-top: 20px;
+  padding-left: 180px;
+  padding-right: 120px;
 }
 
 .btn-tampilan{
   background-color: transparent;
   border-radius: 10px;
-  border: 2px solid #2C448C;
+  border: 1.5px solid #2C448C;
   color: #2C448C;
   margin-top:10px;
   min-width:50px!important;
@@ -192,6 +202,7 @@ font-weight: bold;
   margin-bottom: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
+  width: 724px;
 }
 
 .list-kategori {
@@ -274,10 +285,10 @@ border: none;
   margin-left: 25px;
   margin-top: 16px;
 }
+
 .like,
 .dislike {
   cursor: pointer;
-  font-size: 24px;
 }
 
 .dislike:hover,
@@ -290,7 +301,7 @@ border: none;
 .count-vote{
   font-size: 14px;
   line-height: 24px;
-  margin-left: 5px;
+  margin-left: 11px;
 }
 
 .konten{
@@ -363,6 +374,7 @@ border: none;
 }
 
 .btn-add{
+  position: fixed;
   width: 130px;
   border-radius: 15px;
   background-color: #2C448C;
@@ -370,6 +382,7 @@ border: none;
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
+  margin-right: 10px;
 }
 
 .popup {
