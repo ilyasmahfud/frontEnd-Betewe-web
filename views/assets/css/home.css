@@ -29,7 +29,7 @@ body {
 /* Navbar */
 
 #myNavbar {
-    padding-left: 272.5px;
+    padding-left: 400px;
     padding-top: 10px
 }
 
@@ -102,26 +102,26 @@ input {
     border-radius: 15px;
 }
 
-.isi-1{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 20px;
-line-height: 30px;
-z-index: 999;
-letter-spacing: 0.005em;
-padding-right: 154px;
-padding-bottom: 20px;
-padding-top: 150px;
+.isi-1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    z-index: 999;
+    letter-spacing: 0.005em;
+    padding-right: 154px;
+    padding-bottom: 20px;
+    padding-top: 150px;
 }
 
-.isi-2{
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 30px;
-letter-spacing: 0.005em;
+.isi-2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.005em;
 }
 
 li {
@@ -140,13 +140,13 @@ li {
     background-color: #c6d6f4;
     /* opacity: 0.4; */
     border-radius: 10px;
-     margin-bottom: 107px;
-     padding-bottom: 100px;
-     margin-top: 50px;
+    margin-bottom: 107px;
+    padding-bottom: 100px;
+    margin-top: 50px;
     margin-left: 20px;
-  }
-  
-  .image-banner-4 {
+}
+
+.image-banner-4 {
     width: 480px;
     height: 360px;
     left: 97px;
@@ -158,9 +158,9 @@ li {
     border-radius: 10px;
     margin-bottom: 107px;
     margin-top: -488px;
-  }
+}
 
-  .image-banner-5 {
+.image-banner-5 {
     width: 480px;
     height: 360px;
     left: 97px;
@@ -172,9 +172,9 @@ li {
     border-radius: 10px;
     margin-bottom: 107px;
     margin-top: -488px;
-  }
+}
 
-  .image-banner-6 {
+.image-banner-6 {
     width: 480px;
     height: 360px;
     left: 97px;
@@ -186,7 +186,7 @@ li {
     border-radius: 10px;
     margin-bottom: 107px;
     margin-top: -488px;
-  }
+}
 
 .search {
     position: relative;
