@@ -95,7 +95,7 @@ app.get('/no-result', function(req, res) {
 
 // search before login
 app.get('/hasil-pencarian', function(req, res) {
-    res.render('searchResultNoLogin');
+    res.render('search');
 });
 
 app.listen(8080);
