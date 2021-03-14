@@ -1,43 +1,40 @@
-body {
-    background-color:#F2F2F2;
-}
+/* body {
+    background-color:red;
+} */
 
 
 /* Navbar */
 
-#myNavbar {
-    padding-left: 272.5px;
-    padding-top: 10px
-}
+
+/* Navbar */
+
+
 
 .nav-item {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 30px;
-    text-align: center;
-    letter-spacing: 0.005em;
-    margin-left: 26.5px;
-    white-space: nowrap;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.005em;
+  margin-left: 26.5px;
+  white-space: nowrap;
 }
 
-
-
 .btn-masuk {
-    background-color: #2c448c;
-    border-radius: 10px;
-    font-family: "Roboto", sans-serif;
-    color: white;
-    margin-top: 10px;
-    margin-left: 25px;
-    width: 146px;
-    font-size: 18px;
-    height: 39px;
+  background-color: #2c448c;
+  border-radius: 10px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  margin-top: 10px;
+  width: 146px;
+  font-size: 14px;
+  height: 39px;
 }
 
 .btn-masuk:hover {
-    color: #84acf8;
+  color: #84acf8;
 }
 
 h1 {
@@ -186,6 +183,7 @@ li {
 }
 
 .btn-search {
+  margin-top: 5px;
     position: absolute;
     top: 12px;
     right: 15px;
@@ -261,10 +259,10 @@ h6 {
     color: #1A1A1A;
 }
 
-img {
+/* img {
     height: 365px;
     width: 364px;
-}
+} */
 
 li,
 ul,
@@ -300,7 +298,7 @@ a,
 /* @import url("https://use.fontawesome.com/releases/v5.13.0/css/all.css") */
 
 body{
-    background-color:  #FFFFFF;
+    background-color:  #F2F2F2;
     font-family: Roboto;
   }
 
@@ -312,11 +310,11 @@ a{
 }
 
 #myNavbar {
-  padding-left: 502.5px;
+  padding-left: 303.5px;
 }
 
 .navbar-brand{
-  margin-left: 80px;
+  margin-left: 50px;
  }
 
 .btn-search {
