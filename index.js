@@ -84,12 +84,17 @@ app.get('/setelan-ganti-password', function(req, res) {
 });
 
 // no result page
-app.get('/no-result', function(req, res) {
+app.get('/no-result-login', function(req, res) {
     res.render('noResult');
 });
 
-// search before login
+// no result page without login
 app.get('/no-result', function(req, res) {
+    res.render('noResultLogin');
+});
+
+// search before login
+app.get('/hasil-pencarian', function(req, res) {
     res.render('searchResultNoLogin');
 });
 
