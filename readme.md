@@ -26,18 +26,21 @@ $ node index.js
 3. Figma : https://www.figma.com/file/28vNKaAlNsDwd6BNeUJQl7/Untitled
 
 ## Site Routes ##
-| Routes | Description | Method |
-| ------ | ----------- | ------ |
-| / | Landing Page | GET |
-| /login | Login Page | POST |
-| /register | Register Page | POST |
-| /dashboard | Dashboard | GET|
-| /:question_id | Question Details with Answer | GET |
-| /post | Add Question Page | GET |
-| /post/new | Add Question | POST |
-| /answer | Add Answer | POST |
-| /profile | Profile Page | GET |
-| /profile | Edit Profile | POST |
-| /profile/editpassword | Edit Password Page | GET |
-| profile/editpassword | Edit Password | POST |
+| Routes | Description | 
+| ------ | ----------- | 
+| / | Landing Page | 
+| /masuk | Login Page | 
+| /daftar | Register Page | 
+| /beranda | Dashboard page | 
+| /jawab | Pertanyaan page | 
+| /Tentang | Tentang Aplikasi page | 
+| /berlanggannan | Subscription page | 
+| /harga | Pembayaran page | 
+| /jawab-pertanyaan | Komentar pertanyaan page | 
+| /profil | Profile page | 
+| /edit-profil | Edit Profile Page | 
+| /setelan-berlangganan | Setelan berlangganan page |
+| /setelan-ganti-password | perubahan password page |
+| /setelan-berlangganan | Setelan berlangganan page |
+| /no-result | No result page |
  
