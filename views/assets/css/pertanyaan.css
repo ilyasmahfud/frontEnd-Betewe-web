@@ -8,12 +8,17 @@
     background-color: #F2F2F2;
 }
 
+<<<<<<< HEAD
 .navbar-brand{
     margin-left: 80px;
    }
 
 #myNavbar {
   padding-left: 502.5px;
+=======
+#myNavbar {
+    padding-left: 662.5px;
+>>>>>>> feature/tambah-pertanyaan-page-option2
 }
 
 .btn-search {
@@ -49,6 +54,7 @@
     text-indent: 5px;
     border-radius: 15px;
     border: none;
+<<<<<<< HEAD
 }
 
 .circle-button [class*="fa fa-"] {
@@ -95,7 +101,53 @@
 
 #formPertanyaan{
     margin-left: 20px;
+=======
+>>>>>>> feature/tambah-pertanyaan-page-option2
 }
+
+.circle-button [class*="fa fa-"] {
+
+    background-color: transparent;
+    border-radius: 50%;
+    color: #2C448C;
+    display: inline-block;
+    height: 30px;
+    line-height: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 25px;
+    width: 26.67px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.img-circle-big {
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+    display: table-cell;
+    vertical-align: top;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.profile-wrap {
+    display: table-row;
+}
+
+.setting-title {
+    display: table-cell;
+    vertical-align: top;
+}
+
+/* edn of navbar */
 
 h5 {
     /* font/heading 3 */
