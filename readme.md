@@ -42,3 +42,5 @@ $ node index.js
 | /no-result-login | No result page tanpa login |
 | /hasil-pencarian | Search tanpa login page |
  
+
+## it's not an responsive website, make sure that ur browser > 1440 ##
